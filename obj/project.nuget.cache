@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cvWn+qMTy0pN3hHwjyaSdQf5fVZtFFF+fmXlMetOzaNKVMmEulJl60J59GUJeFGFex+p51fICe8C8OjhS35Imw==",
+  "success": true,
+  "projectFilePath": "C:\\git\\Whoright\\GitHubCopilotWTH\\QuoteOfTheDay.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andyhuang\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
