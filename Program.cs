@@ -11,7 +11,11 @@ class Program
     {
         try
         {
-            HttpResponseMessage response = await client.GetAsync("https://zenquotes.io/api/today");
+            Console.WriteLine("Available categories: inspire, management, sports");
+            Console.Write("Enter a category: ");
+            string category = Console.ReadLine();
+
+            HttpResponseMessage response = await client.GetAsync($"https://zenquotes.io/api/random?category={category}");
             response.EnsureSuccessStatusCode();
             string responseBody = await response.Content.ReadAsStringAsync();
 
